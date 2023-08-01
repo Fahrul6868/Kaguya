@@ -206,18 +206,18 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '👋𝗛𝗲𝗹𝗹𝗼 @user\n\n    ✷⁠ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 ✷\n⏤͟͟͞͞✧@subject\n\n𝗤𝘂𝗼𝘁𝗲:\n_Lakukan sesuatu yang membuat dirimu di masa depan berterima kasih pada dirimu yang sekarang._'
-  conn.bye = '👋𝗚𝗼𝗼𝗱𝗕𝘆𝗲 @user\n\n𝗤𝘂𝗼𝘁𝗲:\n_Karena Setiap Pertemuan akan ada Perpisahan._'
-  conn.spromote = '[ Deteksi Grup ]\n\n@user Telah Di Promosikan Menjadi Admin'
-  conn.sdemote = '[ Deteksi Grup ]\n\n@user Telah Di Berhentikan Sebagai Admin'
-  conn.sDesc = '[ Deteksi Grup ]\n\nDeskripsi Telah Diubah Menjadi \n@desc'
-  conn.sSubject = '[ Deteksi Grup ]\n\nNama Grup Telah Diubah Menjadi \n@subject'
-  conn.sIcon = '[ Deteksi Grup ]\n\nFoto Grup Telah Diubah!'
-  conn.sRevoke = '[ Deteksi Grup ]\n\nTautan Group Telah Diubah Menjadi \n@revoke'
-  conn.sAnnounceOn = '[ Deteksi Grup ]\n\nGroup telah di tutup!\nsekarang hanya admin yang dapat mengirim pesan.'
-  conn.sAnnounceOff = '[ Deteksi Grup ]\n\nGroup telah di buka!\nsekarang semua peserta dapat mengirim pesan.'
-  conn.sRestrictOn = '[ Deteksi Grup ]\n\nEdit Info Grup di ubah ke hanya admin!'
-  conn.sRestrictOff = '[ Deteksi Grup ]\n\nEdit Info Grup di ubah ke semua peserta!'
+  conn.welcome = '-'
+  conn.bye = '-'
+  conn.spromote = '-'
+  conn.sdemote = '-'
+  conn.sDesc = '-'
+  conn.sSubject = '-'
+  conn.sIcon = '-'
+  conn.sRevoke = '-'
+  conn.sAnnounceOn = '-'
+  conn.sAnnounceOff = '-'
+  conn.sRestrictOn = '-'
+  conn.sRestrictOff = '-'
 
   conn.handler = handler.handler.bind(global.conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn)
